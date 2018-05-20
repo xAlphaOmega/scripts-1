@@ -1,0 +1,4 @@
+# How do I reduce the pack file size?
+rm -rf ./.git/
+git init
+git push --mirror [url-to-repo]
